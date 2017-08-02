@@ -7,7 +7,7 @@ BEGIN
 	END IF;
 	SELECT INTO dir
 		CASE n
-			WHEN 'N' THEN 'North'
+			WHEN 'MA' THEN 'North'
 			WHEN 'NE' THEN 'Northeast'
 			WHEN 'NW' THEN 'Northwest'
 			WHEN 'E' THEN 'East'
